@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<form action="action_page.php" method="POST">
+	<input type="button" name="" value="ok">
+	<label for="male">Male</label>
+	<input type="radio" name="gender" id="male">
+	<label for="female">Female</label>
+	<input type="radio" name="gender" id="female">
+	<input type="submit" name="" value="Send">
+
+	<br><br>
+
+	<select name="cars">
+		<option value="volvo">volvo</option>
+		<option value="ford">ford</option>
+		<option value="fiat">fiat</option>
+		<option value="audi">audi</option>
+	</select>
+	<textarea name="note"></textarea>
+	<button type="button" onclick="alert('Hello World!')">
+	click me
+
+</button>
+<input type="text" name="">
+<input type="submit" name="">
+
+<br><br>
+
+ Favorite color:
+ <input type="radio" name="">blue
+ <input type="radio" name="">red
+ <input type="submit" value="click me" id="click">
+ <input type="number" name="quantity" min="1" max="5">
+
+ First name: <input type="text" name="firstname" value="John" disabled size="40">
+ <input type="text" name="fname" placeholder="First name">
+
+
+</form>
+
+<script type="text/javascript">
+	var click=document.getElementById("click");
+	click.addEventListener("click",sub);
+	function sub(){
+		alert("Hello World")
+	}
+
+</script>
+</body>
+</html>

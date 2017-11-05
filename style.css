@@ -1,0 +1,63 @@
+body{
+	background-image: url("bg.png");
+	background-size:cover;
+}
+h3{
+	text-align: center;
+	color:white;
+	font-weight: 500;
+   font-size: 40px;
+}
+.main{
+	margin:15% 35%;
+}
+.main form{
+	background: rgba(15,70,91,0.5);	
+	padding: 10px;
+}
+.basliq{
+	background: #02a298;
+}
+form>p{
+	color:white;
+	text-align: center;
+	padding: 12px;
+}
+input[type=text]{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    margin: 4% 6% 0% 6%;
+    width: 88%;
+    color:white;
+
+}
+input[type=password]{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    width: 93%;
+    color:white;
+}
+
+
+input[type="text"]::-webkit-input-placeholder {
+  color: white;
+}
+
+input[type="password"]::-webkit-input-placeholder {
+  color: white;
+}
+
+input[type=submit]{
+	background: white;
+	border:none;
+	width: 100%;
+	padding: 8px;
+	color:#02a298;
+	font-weight: bold;
+}
+
+input[type=text]:focus,input[type=password]:focus{
+	outline: none;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FORM HTML</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <h3>Badge Sign form</h3>
+        <form id="form" action="http://192.168.150.12">
+            <p class="basliq">Signin Form</p>
+            <input type="text" name="login" placeholder="User Name" id="text" />
+            <p>
+                <input type="password" name="password" placeholder="Password" id="pass" />
+                <p>
+                    <input type="checkbox" name="" id="ch" />
+                    <label for="ch">Remember me</label>
+                    <p>
+                        <input id="sign" type="submit" name="" value="Sign in" />
+                        <!-- <button id="sign">Sign in</button> -->
+        </form>
+    </div>
+</body>
+
+</html>
+
+<script type="text/javascript">
+    // var sign = document.getElementById("sign");
+    var form = document.getElementById("form");
+    var text = document.getElementById("text");
+    var pass = document.getElementById("pass");
+    form.addEventListener("submit", submit);
+
+    function submit(event) {
+        // alert("Login: " + text.value + "\n" + " Password:" + pass.value);
+        if (text.value == "Leyla" && pass.value == "12345") {
+            alert("Muveffeqiyyetle daxil oldunuz")
+
+        } else {
+            alert("login ve ya password yalnisdir")
+            event.preventDefault()
+        }
+    }
+</script>
